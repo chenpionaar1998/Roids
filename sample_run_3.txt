@@ -1,0 +1,318 @@
+Sample Run Explanation:
+During this Sample Run, we tried to make our character, test 3, win by reaching
+Planet Python by choosing his the position of planet python to be 5 and choosing
+test 3 to go to position 5 at first move. After the win we chose for the 
+character to lose by running out of turns by setting the amount of turns to 3. 
+After running for 3 turns, the game tells the user that test 3 ran out of turns
+and can no longer continue on the quest.
+
+Welcome to No Man's Scam CMPT 120 Game!!
+========================================
+
+Do you want to play? (y/n): y
+Default or input? (d/i): d
+
+Data for character: 
+Name: test 3
+Civilisation level (0..3): 3
+Initial fuel (10..50): 10
+Maximum turns this game (0..10): 3
+Where do you want Planet Python to be? (1..7 or 0 for none): 5
+Allow Wow Explosion to happen? (y/n): n
+Since you dont want Amazing Explosion to happen, do you want Mild Explosion to happen? (y/n): y
+Proportion explosion? (1...5 or 0 for none) : 5
+Do you want to draw the board? (y/n): y
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0    <~~~  test 3
+   1       1      10        20
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+###No explosion happened this round###
+
+****After Explosion****
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0    <~~~  test 3
+   1       1      10        20
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+Do you want to roll a die (d) or choose the number positions you want to move by (c)?: c
+How many moves do you want to make?: 5
+test 3 is on planet 5
+
+****After Moving Position****
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0
+   1       1      10        20
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6    <~~~  test 3
+   6       3      10        30
+   7       3      10         4
+
+-Fuel-
+There are aliens in this planet with civilization level 1
+You are more intelligent than the aliens and made a great deal
+You gained 2 litres of fuel
+You now have 12 litres of fuel
+
+-Rocks-
+There are 6 rocks on this planet
+test 3 collected 2 rocks.
+test 3 now has [0, 2] rocks
+
+Congratulations, test 3 has successfully reached Planet Python!!
+Do you want to play again? (y/n): y
+Default or input? (d/i): d
+
+Data for character: 
+Name: test 3
+Civilisation level (0..3): 3
+Initial fuel (10..50): 45
+Maximum turns this game (0..10): 3
+Where do you want Planet Python to be? (1..7 or 0 for none): 4
+Allow Wow Explosion to happen? (y/n): y
+Proportion explosion? (1...5 or 0 for none) : 5
+Do you want to draw the board? (y/n): y
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0    <~~~  test 3
+   1       1      10        20
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+###No explosion happened this round###
+
+****After Explosion****
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0    <~~~  test 3
+   1       1      10        20
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+Do you want to roll a die (d) or choose the number positions you want to move by (c)?: d
+You rolled a 4
+
+test 3 is on planet 4
+
+****After Moving Position****
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0
+   1       1      10        20
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5    <~~~  test 3
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+-Fuel-
+There are aliens in this planet with civilization level 1
+You are more intelligent than the aliens and made a great deal
+You gained 0 litres of fuel
+You now have 45 litres of fuel
+
+-Rocks-
+There are 5 rocks on this planet
+test 3 collected 1 rocks.
+test 3 now has [0, 1] rocks
+
+Congratulations, test 3 has successfully reached Planet Python!!
+Do you want to play again? (y/n): y
+Default or input? (d/i): d
+
+Data for character: 
+Name: test 3
+Civilisation level (0..3): 3
+Initial fuel (10..50): 50
+Maximum turns this game (0..10): 3
+Where do you want Planet Python to be? (1..7 or 0 for none): 0
+Allow Wow Explosion to happen? (y/n): y
+Proportion explosion? (1...5 or 0 for none) : 5
+Do you want to draw the board? (y/n): y
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0    <~~~  test 3
+   1       1      10        20
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+###No explosion happened this round###
+
+****After Explosion****
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0    <~~~  test 3
+   1       1      10        20
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+Do you want to roll a die (d) or choose the number positions you want to move by (c)?: d
+You rolled a 1
+
+test 3 is on planet 1
+
+****After Moving Position****
+It is turn number: 1
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0
+   1       1      10        20    <~~~  test 3
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+-Fuel-
+There are aliens in this planet with civilization level 1
+You are more intelligent than the aliens and made a great deal
+You gained 3 litres of fuel
+You now have 53 litres of fuel
+
+-Rocks-
+There are 20 rocks on this planet
+test 3 collected 6 rocks.
+test 3 now has [0, 6] rocks
+
+Update Info
+test 3's current position is : 1
+test 3 has 53 litres of fuel
+test 3 collected [0, 6] rocks so far
+test 3 is alive
+test 3 is ready to continue
+
+###No explosion happened this round###
+
+****After Explosion****
+It is turn number: 2
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0
+   1       1       7        14    <~~~  test 3
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6
+   6       3      10        30
+   7       3      10         4
+
+Do you want to roll a die (d) or choose the number positions you want to move by (c)?: d
+You rolled a 4
+
+test 3 is on planet 5
+
+****After Moving Position****
+It is turn number: 2
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0
+   1       1       7        14
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1      10         6    <~~~  test 3
+   6       3      10        30
+   7       3      10         4
+
+-Fuel-
+There are aliens in this planet with civilization level 1
+You are more intelligent than the aliens and made a great deal
+You gained 5 litres of fuel
+You now have 58 litres of fuel
+
+-Rocks-
+There are 6 rocks on this planet
+test 3 collected 2 rocks.
+test 3 now has [0, 6, 2] rocks
+
+Update Info
+test 3's current position is : 5
+test 3 has 58 litres of fuel
+test 3 collected [0, 6, 2] rocks so far
+test 3 is alive
+test 3 is ready to continue
+
+###No explosion happened this round###
+
+****After Explosion****
+It is turn number: 3
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0
+   1       1       7        14
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5
+   5       1       5         4    <~~~  test 3
+   6       3      10        30
+   7       3      10         4
+
+Do you want to roll a die (d) or choose the number positions you want to move by (c)?: d
+You rolled a 6
+
+test 3 is on planet 4
+
+****After Moving Position****
+It is turn number: 3
+Planet #  Civ    Fuel      Rocks
+   0       0       0         0
+   1       1       7        14
+   2       3      10        15
+   3       2      30        20
+   4       1       0         5    <~~~  test 3
+   5       1       5         4
+   6       3      10        30
+   7       3      10         4
+
+-Fuel-
+There are aliens in this planet with civilization level 1
+You are more intelligent than the aliens and made a great deal
+You gained 0 litres of fuel
+You now have 58 litres of fuel
+
+-Rocks-
+There are 5 rocks on this planet
+test 3 collected 1 rocks.
+test 3 now has [0, 6, 2, 1] rocks
+
+You ran out of turns and can no longer continue on your quest
+Do you want to play again? (y/n): n
+I'm sorry you feel that way 
+
+############### Final Result ###############
+The rock specimens remain in the last game is [0, 14, 15, 20, 4, 4, 30, 4]
+The corresponing binary is [0, 0, 1, 0, 0, 0, 0, 0]
+The number is 32 in base 2
+The user has played 3 games.
+Of those, the user  won 2 games
+############################################
+>>> 
