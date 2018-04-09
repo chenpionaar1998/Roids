@@ -6,3 +6,4 @@ SFU CMPT120 Final project
 Group members: Artur Eginyan, Angus Fan <br/>
 Completetion date: Dec 2016 <br/>
 Language: Python
+Content: Text based game written in python
